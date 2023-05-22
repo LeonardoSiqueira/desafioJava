@@ -17,18 +17,20 @@ public class TestProjetoAgro3 {
         proposta1.setRecursoProprio(100.00);
         proposta1.setTotalFinanciado(150.00);
         proposta1.setQtdParcelas(3);
-//        imprimeProdutor();
-//        imprimeProposta();
-//        imprimeValorProposta();
+
+        System.out.println(proposta1.getNomProdutor());
+        System.out.println(proposta1.getValor());
+        System.out.println(proposta1.getTpoCultura());
 
         PropostaV3 proposta2 = new PropostaV3();
         proposta2.setTpoProjeto("Custeio");
         proposta2.setTpoEnquadramento("Pronamp");
-        proposta2.setTpoCultura("Milho");
+        proposta2.setTpoCultura("SOJA");
         proposta2.setTpoSeguro("OMS");
-//        imprimeProdutor();
-//        imprimeProposta();
-//        imprimeValorProposta();
+
+        System.out.println(proposta2.getNomProdutor());
+        System.out.println(proposta2.getValor());
+        System.out.println(proposta2.getTpoCultura());
 
         PropostaV3 proposta3 = new PropostaV3();// custo
         proposta3.setQuantidadeArea(10.00);
@@ -36,9 +38,10 @@ public class TestProjetoAgro3 {
         proposta3.setRecursoProprio(100.00);
         proposta3.setTotalFinanciado(150.00);
         proposta3.setQtdParcelas(3);
-//        imprimeProdutor();
-//        imprimeProposta();
-//        imprimeValorProposta();
+
+        System.out.println(proposta3.getQuantidadeArea());
+        System.out.println(proposta3.getValor());
+        System.out.println(proposta3.getTpoCultura());
     }
 
     private static void imprimeProdutor(String nomProdutor, String numCpf, int cooperativa, int ua) {
