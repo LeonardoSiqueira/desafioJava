@@ -43,29 +43,4 @@ public class TestProjetoAgro3 {
         System.out.println(proposta3.getValor());
         System.out.println(proposta3.getTpoCultura());
     }
-
-    private static void imprimeProdutor(String nomProdutor, String numCpf, int cooperativa, int ua) {
-        System.out.println("Dados Produtor: ");
-        System.out.println("Nome Produtor: " + nomProdutor);
-        System.out.println("CPF Produtor: " + numCpf);
-        System.out.println("Cooperativa: " + cooperativa);
-        System.out.println("UA: " + ua);
-        System.out.println();
-    }
-    private static void imprimeProposta(String tpoProjeto, String tpoEnquadramento, String tpoCultura, String tpoSeguro, String quantidadeArea) {
-        System.out.println("Dados da Proposta: ");
-        System.out.println("Projeto: " + tpoProjeto);
-        System.out.println("Enquadramento: " + tpoEnquadramento);
-        System.out.println("Cultura: " + tpoCultura);
-        System.out.println("Seguro: " + tpoSeguro);
-        System.out.println("Area Total: " + quantidadeArea);
-        System.out.println();
-    }
-    private static void imprimeValorProposta(double quantidadeArea, double valor, double recursoProprio, double totalFinanciado, int qtdParcelas, double vlrParcelas) {
-        System.out.println("Valor Proposta: " + valor);
-        System.out.println("Valor Recurso Proprio: " + recursoProprio);
-        System.out.println("Valor Financiado: " + totalFinanciado);
-        System.out.println("Quantidade Parcelas: " + qtdParcelas);
-        System.out.println("Valor Parcelas: " + vlrParcelas);
-    }
 }
